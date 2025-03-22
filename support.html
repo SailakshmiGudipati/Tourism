@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Tourism Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .support-container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .support-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .support-header h2 {
+            font-size: 2.2em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .support-section {
+            margin-bottom: 30px;
+        }
+
+        .support-section h3 {
+            font-size: 1.5em;
+            color: #444;
+            margin-bottom: 15px;
+        }
+
+        .support-section p {
+            font-size: 1.1em;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: calc(100% - 22px); /* account for padding/borders */
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .contact-form button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        .faq-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .faq-item {
+            margin-bottom: 15px;
+        }
+
+        .faq-item strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .support-container {
+                width: 95%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="support-container">
+        <div class="support-header">
+            <h2>Support & Help</h2>
+            <p>We're here to assist you with any questions or issues.</p>
+        </div>
+
+        <div class="support-section">
+            <h3>Contact Us</h3>
+            <p>Please fill out the form below to get in touch with our support team.</p>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="support-section">
+            <h3>Frequently Asked Questions (FAQ)</h3>
+            <ul class="faq-list">
+                <li class="faq-item">
+                    <strong>How do I book a tour?</strong>
+                    <p>You can book a tour directly through our website by selecting your desired tour and following the booking process.</p>
+                </li>
+                <li class="faq-item">
+                    <strong>What payment methods do you accept?</strong>
+                    <p>We accept major credit cards, PayPal, and bank transfers.</p>
+                </li>
+                <li class="faq-item">
+                    <strong>Can I cancel my booking?</strong>
+                    <p>Yes, you can cancel your booking. Please refer to our cancellation policy for details on refunds and fees.</p>
+                </li>
+                <li class="faq-item">
+                    <strong>How do I change my booking?</strong>
+                    <p>To change your booking, please contact our support team with your booking details and requested changes.</p>
+                </li>
+                <li class="faq-item">
+                  <strong>What documents are needed for international travel?</strong>
+                  <p>Requirements vary by destination. Typically, a valid passport, visa (if required), and travel insurance are necessary. Check the specific requirements for your destination.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="support-section">
+            <h3>Live Chat</h3>
+            <p>For immediate assistance, please use our live chat feature (available during business hours).</p>
+            <p><em>(Note: Implement a live chat widget here.)</em></p>
+        </div>
+    </div>
+</body>
+</html>

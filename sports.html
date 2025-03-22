@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Sports Tourism</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .sports-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 50px auto;
+        }
+
+        .sports-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .sports-header h2 {
+            font-size: 2.5em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .sports-header p {
+            font-size: 1.1em;
+            color: #777;
+        }
+
+        .sports-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .sports-item {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .sports-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .sports-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .sports-item-content {
+            padding: 20px;
+        }
+
+        .sports-item-content h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .sports-item-content p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .sports-item-content a {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .sports-item-content a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .sports-container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sports-container">
+        <div class="sports-header">
+            <h2>Adventure Sports Tourism</h2>
+            <p>Experience thrilling adventures around the world.</p>
+        </div>
+
+        <div class="sports-grid">
+            <div class="sports-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7MUFPGMsIKCjMKAKBl76rqdiNrUlyuuyNAQ&s" alt="Scuba Diving">
+                <div class="sports-item-content">
+                    <h3>Scuba Diving in Great Barrier Reef</h3>
+                    <p>Explore the vibrant underwater world of the Great Barrier Reef.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div class="sports-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxvuvRW63UdQBQaM4onn8yqc3gK-qfs4G1Fg&s" alt="Mountain Climbing">
+                <div class="sports-item-content">
+                    <h3>Mountain Climbing in Himalayas</h3>
+                    <p>Challenge yourself with a climbing expedition in the majestic Himalayas.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div class="sports-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr0r6NdVc1t2iGS7E-deUf0timLrpYkJh5SQ&s" alt="White Water Rafting">
+                <div class="sports-item-content">
+                    <h3>White Water Rafting in Colorado</h3>
+                    <p>Experience the thrill of navigating rapids in the Colorado River.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div class="sports-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ3IVAzKNpqD81ArDH7Xqd-EPg_hCDQNw_1g&s" alt="Surfing">
+                <div class="sports-item-content">
+                    <h3>Surfing in Bali</h3>
+                    <p>Catch the perfect wave in the world-renowned surf spots of Bali.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div class="sports-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ02lFG-fc40-DndrIww5phZVFq9RgYFSc6A&s" alt="Paragliding">
+                <div class="sports-item-content">
+                    <h3>Paragliding in Switzerland</h3>
+                    <p>Soar above the stunning landscapes of the Swiss Alps.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div class="sports-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS8-f7PJGqn0MaI00Izt2FkEwb0BOPQZFo7w&s" alt="Skiing">
+                <div class="sports-item-content">
+                    <h3>Skiing in Aspen</h3>
+                    <p>Enjoy world-class skiing and snowboarding in the slopes of Aspen.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
